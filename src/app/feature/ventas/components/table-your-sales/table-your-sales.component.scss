@@ -64,3 +64,12 @@
 .sale {
   padding: 10%;
 }
+
+@media (max-width: 600px) {
+  .section-head {
+    width: 40%;
+  }
+  .table-sales {
+    width: 40%;
+  }
+}

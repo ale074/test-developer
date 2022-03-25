@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
+import { Nav } from '../navigate-bar/navigate-bar.component';
 interface venta {
   id: string;
   transaccion: string;
@@ -15,7 +16,10 @@ interface venta {
 })
 export class TableYourSalesComponent implements OnInit {
 
-  periodo: string = "Septiembre";
+  @Input() nav: Nav = {
+    title: "Hoy",
+    description: "Septiembre, 21"
+  };
 
   ventas: venta[] =[
     {

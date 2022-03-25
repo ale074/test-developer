@@ -32,3 +32,17 @@
   color: #ef434e;
   font-size: 40px;
 }
+
+@media (max-width: 600px) {
+  .head-card {
+    height: 50%;
+  }
+  .head-card p {
+    position: relative;
+    top: 15%;
+  }
+  .total-amount {
+    color: #ef434e;
+    font-size: 19px;
+  }
+}

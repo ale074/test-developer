@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
+import { Nav } from '../navigate-bar/navigate-bar.component';
 
 @Component({
   selector: 'app-total-ventas',
@@ -7,8 +8,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class TotalVentasComponent implements OnInit {
 
-  periodo: string = "septiembre";
-  description: string = "septiembre, 2020";
+
+  @Input() nav: Nav = {
+    title: "Hoy",
+    description: "Septiembre, 21"
+  };
 
   constructor() { }
 

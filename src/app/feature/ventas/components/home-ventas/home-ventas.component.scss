@@ -34,3 +34,9 @@
   left: 58%;
   position: relative;
 }
+
+@media (max-width: 600px) {
+  .section-table {
+    width: 200%;
+  }
+}
