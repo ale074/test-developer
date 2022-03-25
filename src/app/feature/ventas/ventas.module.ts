@@ -7,6 +7,8 @@ import { ShareModule } from 'src/app/share/share.module';
 import { TotalVentasComponent } from './components/total-ventas/total-ventas.component';
 import { NavigateBarComponent } from './components/navigate-bar/navigate-bar.component';
 import { FilterComponent } from './components/filter/filter.component';
+import { TableYourSalesComponent } from './components/table-your-sales/table-your-sales.component';
+import { FormsModule } from '@angular/forms';
 
 
 @NgModule({
@@ -14,12 +16,14 @@ import { FilterComponent } from './components/filter/filter.component';
     HomeVentasComponent,
     TotalVentasComponent,
     NavigateBarComponent,
-    FilterComponent
+    FilterComponent,
+    TableYourSalesComponent
   ],
   imports: [
     CommonModule,
     VentasRoutingModule,
-    ShareModule
+    ShareModule,
+    FormsModule,
   ]
 })
 export class VentasModule { }

@@ -1,10 +1,10 @@
 .filter {
-  width: 300%;
+  position: relative;
+  width: 100%;
   justify-content: center;
-  height: 100%;
   background-color: #fff;
   cursor: pointer;
-  border-radius: 15px;
+  border-radius: 10px;
   border: none;
 }
 
@@ -12,4 +12,25 @@
   position: relative;
   top: 30%;
   text-align: center;
+}
+
+.button button {
+  border: 0;
+}
+
+.options {
+  text-align: center;
+}
+
+.checkbox {
+  color: #111e6c;
+  text-align: justify;
+}
+
+button {
+  size: 50px;
+  border-radius: 20px;
+  border: none;
+  color: #fff;
+  background-color: #ef434e;
 }

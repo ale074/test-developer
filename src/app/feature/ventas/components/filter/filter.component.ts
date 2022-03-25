@@ -7,6 +7,10 @@ import { Component, OnInit } from '@angular/core';
 })
 export class FilterComponent implements OnInit {
 
+  options: string[] = ["Cobro Con datáfono", "Cobros con link de pago", "Ver todos"]
+  typeOfCharge: string = "";
+  filter: boolean = false;
+
   constructor() { }
 
   ngOnInit(): void {

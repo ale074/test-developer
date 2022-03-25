@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HeaderComponent } from './share/components/header/header.component';
 import { ShareModule } from './share/share.module';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
